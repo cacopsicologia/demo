@@ -1,0 +1,98 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.2.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+.site-slogan span {
+    color: #24AAE1;
+}
+
+.caco-logo img {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.caco-logo h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-transform: none;
+  text-align: center;
+  font-size:25px;
+}
+
+.caco-logo span {
+  color: #24AAE1;
+}
+
+/*.home-banner picture {
+  display: inline-block;
+  height: 500px;
+  overflow: hidden;
+}*/
+.home-banner picture img {
+  min-height: 200px;
+}
+.home-banner h1 {
+  position: absolute;
+  color: #FFFFFF;
+  margin-left: 80px;
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.small-max-width {
+  max-width: 125px;
+}
+
+.soft-floor-background {
+	background-image: url("images/soft-floor-background.png");
+  background-repeat: repeat;
+}
+
+.btn-call-to-action {
+    color: #ffffff;
+    background-color: #FF951F;
+    border-color: #FF951F;
+}
+.btn-call-to-action:hover,
+.btn-call-to-action:focus,
+.btn-call-to-action.focus,
+.btn-call-to-action:active,
+.btn-call-to-action.active,
+.open > .dropdown-toggle.btn-call-to-action {
+  color: #ffffff;
+  background-color: #ffa11f;
+  border-color: #ffa11f;
+}
+
+.text-call-to-action {
+  color: #FF951F;
+}
+
+.testttt {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /*width: 320px;
+  height: 320px;*/
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(90deg, #FFFFFF 2px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(0deg, #FFFFFF 2px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(90deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), -webkit-linear-gradient(0deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), rgb(34, 102, 153);
+  background: -moz-linear-gradient(0deg, #FFFFFF 2px, rgba(0,0,0,0) 2px), -moz-linear-gradient(90deg, #FFFFFF 2px, rgba(0,0,0,0) 2px), -moz-linear-gradient(0deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), -moz-linear-gradient(90deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), rgb(34, 102, 153);
+  background: linear-gradient(0deg, #FFFFFF 2px, rgba(0,0,0,0) 2px), linear-gradient(90deg, #FFFFFF 2px, rgba(0,0,0,0) 2px), linear-gradient(0deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), linear-gradient(90deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), rgb(34, 102, 153);
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+}
