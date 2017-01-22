@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<title>Middleman</title>
+		
+		<meta name="description" content="Clinica de Análise Comportamento Infantojuvenil">
+		<meta name="author" content="Caco">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
+		
+		<link href="css/style.css" rel="stylesheet" >
+		<link href="css/skins/light_blue.css" rel="stylesheet">
+
+		<link href="css/custom.css" rel="stylesheet">		
+	</head>
+
+	<body class="no-trans front-page transparent-header  ">
+		<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+		
+		<div class="page-wrapper">
+		
+			<div class="header-container">
+				<header class="header fixed clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 ">
+				<div class="header-left clearfix">
+					<div id="logo" class="logo">
+						<a href="index.html">
+							<img id="logo_img" class="small-max-width" src="images/caco-simple.png" alt="Caco"></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+	
+				<div class="header-right clearfix">
+					<div class="main-navigation animated">
+
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="container-fluid">
+
+								<!-- Toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="/">Home</a></li>
+										<li><a href="/sobre.html">Sobre</a></li>
+										<li class="dropdown">
+											<a href="terapia.html" class="dropdown-toggle" data-toggle="dropdown">Terapia</a>
+											<ul class="dropdown-menu">
+												<li><a href="terapia.html#quando_optar">Quando optar</a></li>
+												<li><a href="terapia.html#terapia_infantil">Terapia Infantil</a></li>
+												<li><a href="terapia.html#terapia_adolescentes">Terapia Adolescente</a></li>
+												<li><a href="terapia.html#orientacao_pais">Orientação dos pais</a></li>
+											</ul>
+										</li>
+										<li><a href="#footer">Contato</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</nav>
+
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</div>
+</header>
+			</div>
+		
+			<div class="main-container">
+				<div class="row">
+	<div class="col-md-6">
+		<div class="footer-content">
+			<div class="logo-footer small-max-width"><img id="logo-footer" src="images/caco-simple.png" alt="Caco"></div>
+			<p>Não ficou claro como trabalhamos ou esta interessado em mais detalhes? Fique a vontade para nos contatar em qualquer um dos nossos canais.</p>
+			<ul class="list-icons mb-20">
+				<li><i class="text-call-to-action fa fa-phone pr-5"></i>Psicóloga Marina Nolasco - (31) 99755 3228</li>
+				<li><i class="text-call-to-action fa fa-phone pr-5"></i>Psicóloga Wallana Coutinho - (31) 99116 3474</li>
+				<li><i class="text-call-to-action fa fa-map-marker pr-5"></i>Rua Fernandes Tourinho 999, sala 302 - Lourdes - BH/MG</li>
+				<li><a href="mailto:info@theproject.com" class="link-dark"><i class="text-call-to-action fa fa-envelope-o pr-5"></i>cacopsicologia@gmail.com</a></li>
+			</ul>
+			<div class="separator-2"></div>
+			<ul class="social-links circle margin-clear animated-effect-1">
+				<li class="facebook"><a target="_blank" href="https://www.facebook.com/cacopsicologia"><i class="fa fa-facebook"></i></a></li>
+				<li class="instagram"><a target="_blank" href="https://www.instagram.com/cacopsicologia/"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="footer-content">
+			<h2 class="title">Nos envie um e-mail que entraremos em contato</h2>
+			<div class="alert alert-success hidden" id="MessageSent2">
+				Nos recebemos sua mensagem, logo entraremos em contato você.
+			</div>
+			<div class="alert alert-danger hidden" id="MessageNotSent2">
+				Oops! Alguma coisa esta errada, atualize a página e tente novamente.
+			</div>
+			<form role="form" id="footer-form" class="margin-clear" action="http://formspree.io/cacopsicologia@gmail.com" method="POST">
+				<input type="hidden" name="_next" value="email-confirmado.html" />
+				<div class="form-group has-feedback mb-10">
+					<label class="sr-only" for="name2">Nome</label>
+					<input type="text" class="form-control" id="name2" placeholder="Nome" name="name2">
+					<i class="fa fa-user form-control-feedback"></i>
+				</div>
+				<div class="form-group has-feedback mb-10">
+					<label class="sr-only" for="email2">Seu email</label>
+					<input type="email" class="form-control" id="email2" placeholder="Seu email" name="_replyto">
+					<i class="fa fa-envelope form-control-feedback"></i>
+				</div>
+				<div class="form-group has-feedback mb-10">
+					<label class="sr-only" for="message2">Mensagem</label>
+					<textarea class="form-control" rows="4" id="message2" placeholder="Escreva sua mensagem aqui" name="body"></textarea>
+					<i class="fa fa-pencil form-control-feedback"></i>
+				</div>
+				<button type="submit" class="btn btn-call-to-action">Enviar</button>
+			</form>
+		</div>
+	</div>
+</div>
+			</div>
+
+			<footer id="footer" class="clearfix">
+				<div class="footer">
+	<div class="container">
+		<div class="footer-inner">
+			<div class="row">
+	<div class="col-md-6">
+		<div class="footer-content">
+			<div class="logo-footer small-max-width"><img id="logo-footer" src="images/caco-simple.png" alt="Caco"></div>
+			<p>Não ficou claro como trabalhamos ou esta interessado em mais detalhes? Fique a vontade para nos contatar em qualquer um dos nossos canais.</p>
+			<ul class="list-icons mb-20">
+				<li><i class="text-call-to-action fa fa-phone pr-5"></i>Psicóloga Marina Nolasco - (31) 99755 3228</li>
+				<li><i class="text-call-to-action fa fa-phone pr-5"></i>Psicóloga Wallana Coutinho - (31) 99116 3474</li>
+				<li><i class="text-call-to-action fa fa-map-marker pr-5"></i>Rua Fernandes Tourinho 999, sala 302 - Lourdes - BH/MG</li>
+				<li><a href="mailto:info@theproject.com" class="link-dark"><i class="text-call-to-action fa fa-envelope-o pr-5"></i>cacopsicologia@gmail.com</a></li>
+			</ul>
+			<div class="separator-2"></div>
+			<ul class="social-links circle margin-clear animated-effect-1">
+				<li class="facebook"><a target="_blank" href="https://www.facebook.com/cacopsicologia"><i class="fa fa-facebook"></i></a></li>
+				<li class="instagram"><a target="_blank" href="https://www.instagram.com/cacopsicologia/"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="footer-content">
+			<h2 class="title">Nos envie um e-mail que entraremos em contato</h2>
+			<div class="alert alert-success hidden" id="MessageSent2">
+				Nos recebemos sua mensagem, logo entraremos em contato você.
+			</div>
+			<div class="alert alert-danger hidden" id="MessageNotSent2">
+				Oops! Alguma coisa esta errada, atualize a página e tente novamente.
+			</div>
+			<form role="form" id="footer-form" class="margin-clear" action="http://formspree.io/cacopsicologia@gmail.com" method="POST">
+				<input type="hidden" name="_next" value="email-confirmado.html" />
+				<div class="form-group has-feedback mb-10">
+					<label class="sr-only" for="name2">Nome</label>
+					<input type="text" class="form-control" id="name2" placeholder="Nome" name="name2">
+					<i class="fa fa-user form-control-feedback"></i>
+				</div>
+				<div class="form-group has-feedback mb-10">
+					<label class="sr-only" for="email2">Seu email</label>
+					<input type="email" class="form-control" id="email2" placeholder="Seu email" name="_replyto">
+					<i class="fa fa-envelope form-control-feedback"></i>
+				</div>
+				<div class="form-group has-feedback mb-10">
+					<label class="sr-only" for="message2">Mensagem</label>
+					<textarea class="form-control" rows="4" id="message2" placeholder="Escreva sua mensagem aqui" name="body"></textarea>
+					<i class="fa fa-pencil form-control-feedback"></i>
+				</div>
+				<button type="submit" class="btn btn-call-to-action">Enviar</button>
+			</form>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+
+<div class="subfooter">
+	<div class="container">
+		<div class="subfooter-inner">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="text-center">Copyright © 2016 <a target="_blank" href=".">Caco</a>. Todos os direitos  reservados. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			</footer>
+		</div>
+
+
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="js/vendor/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="js/vendor/modernizr.js"></script>
+		
+		<!-- SmoothScroll javascript -->
+		<script type="text/javascript" src="js/vendor/jquery.browser.js"></script>
+		<script type="text/javascript" src="js/vendor/SmoothScroll.js"></script>
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+	</body>
+</html>
