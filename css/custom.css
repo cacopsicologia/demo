@@ -35,14 +35,14 @@ File Description: Place here your custom CSS styles
   overflow: hidden;
 }*/
 .home-banner picture img {
-  min-height: 200px;
+  min-height: 100px;
 }
 .home-banner h1 {
   position: absolute;
   color: #FFFFFF;
-  margin-left: 80px;
-  margin-top: 75px;
-  font-size: 50px;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 5vw;
 }
 
 .small-max-width {
