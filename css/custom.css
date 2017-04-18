@@ -8,6 +8,23 @@ License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
 
+
+/* mobile start */
+.navbar-logo  {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+}
+.transparent-header .main-navigation .navbar.navbar-default {
+    position: relative;
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    display: none;
+  }
+}
+/* mobile end */
+
 .site-slogan span {
     color: #24AAE1;
 }
