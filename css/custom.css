@@ -91,6 +91,35 @@ File Description: Place here your custom CSS styles
   color: #FF951F;
 }
 
+.whatsapp-container {
+  position: fixed;
+  right: 25px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.whatsapp-flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+}
+
+.whatsapp-call {
+  display: none;
+  padding: 5px;
+}
+
+.whatsapp-button {
+  height: 60px;
+  width: 60px;
+  margin-left: 5px;
+}
+
+.whatsapp-button:hover ~ .whatsapp-call {
+  display: block;
+}
+
 .testttt {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
